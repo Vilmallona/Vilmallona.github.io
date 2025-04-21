@@ -1,17 +1,12 @@
 body {
     font-family: 'Comic Neue', cursive;
     background-color: #fff0f5; /* Light pastel pink */
-    color: #333;
-    margin: 0;
-    padding: 0;
 }
 
 /* Header */
 header {
     background-color: #ffe4e1;
-    padding: 2rem;
     text-align: center;
-    border-bottom: 4px dotted #ffb6c1;
 }
 
 header h1 {
@@ -22,23 +17,12 @@ header h1 {
 
 /* Navigation */
 nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
     background-color: #faf0e6;
-    margin: 0;
-}
-
-nav li {
-    margin: 0 1rem;
 }
 
 nav a {
-    text-decoration: none;
     color: #ff69b4;
     font-weight: bold;
-    transition: color 0.3s;
 }
 
 nav a:hover {
@@ -50,38 +34,21 @@ div {
     text-align: center;
     font-style: italic;
     background-color: #fce4ec;
-    padding: 1rem;
-    margin: 1rem auto;
-    width: 60%;
-    border-radius: 15px;
 }
 
 /* Main content */
 main {
-    padding: 2rem;
     background-color: #fffaf0;
-    margin: 1rem auto;
-    width: 80%;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(255, 182, 193, 0.3);
 }
 
 main h2 {
     font-family: 'Pacifico', cursive;
     color: #ff69b4;
-}
-
-main p {
-    margin: 1rem 0;
-    line-height: 1.6;
-}
 
 /* Footer */
 footer {
     background-color: #ffe4e1;
     text-align: center;
-    padding: 1rem;
-    border-top: 2px dotted #ffb6c1;
     font-size: 0.9rem;
     color: #d63384;
 }
