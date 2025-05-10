@@ -1,0 +1,61 @@
+        
+        nav.vertical-nav {
+            float: left;
+            width: 200px;
+            background-color: #f2f2f2;
+            padding: 10px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        nav.vertical-nav a {
+            display: block;
+            color: #333;
+            padding: 8px 0;
+            text-decoration: none;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav.vertical-nav a:hover {
+            background-color: #e0e0e0;
+        }
+
+        /* Main content adjustment */
+        main {
+            margin-left: 240px; /* Offset for nav */
+            display: flex;
+        }
+
+        /* Two-column layout */
+        .content {
+            width: 60%;
+            margin-right: 20px;
+            padding: 10px;
+            background-color: #fafafa;
+            border-radius: 8px;
+        }
+
+        #progress {
+            width: 40%;
+            padding: 10px;
+            background-color: #fafafa;
+            border-radius: 8px;
+        }
+
+        /* Main navigation bar */
+        nav.main-nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav.main-nav a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav.main-nav a:hover {
+            background-color: red;
+        }
